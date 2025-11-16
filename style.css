@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(black,grey);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+ul{
+    margin-left: 850px;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+ul a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+ul a:hover{
+    color: orange;
+}
+img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-top: 25px;
+    transition: transform 35s linear 1s;
+    transform: rotateY(360deg);
+}
+figcaption{
+    font-size: 25px;
+    margin-left: 175px;
+    color:brown;
+}
+.s3{
+    position: relative;
+    left: 750px;
+    bottom: 500px;
+    color: whitesmoke;
+    margin-left: 90px;
+    margin-top: 20px;
+    
+
+}
+.s3 h1{
+    font-weight: bolder;
+    font-size: 50px;
+    width: 500px;
+}
+.s3 span{
+    color: brown;
+}
+.s3 p{
+    margin-top: 20px;
+    line-height: 23px;
+    width: 550px;
+    font-size: 20px;
+}
+.s3 button{
+    margin-top: 20px;
+    
+    font-size: 25px;
+    height: 50px;
+    border-radius: 40px;
+    width: 250px;
+    background-image: linear-gradient(brown,orange);
+    transform: scale(1);
+    
+} 
+.s3 button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    transition: all 0.3s ease;
+}
+.s3 a:hover{
+    background-color: brown;
+    color: aqua;
+    transition: color 0.4s ease 0.5s;
+}
+    
+button:hover{
+
+    transform: scale(1.2);
+
+}
+/* mobile version */
+@media only screen and (max-width: 700px){
+    .s1{
+        
+        border-bottom: 3px solid green;
+        border-top: 3px solid green;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-image: url(../portfolio/gh.jpg);
+        
+    }
+    body{
+        background-image: linear-gradient(orange,blue);
+        overflow-x: hidden;
+        width: 100%;
+       
+    }
+    img{
+        width: 100%;
+        margin-left: 55px;
+        height: 100%;
+        
+    }
+    figure{
+        width: 400px;
+        height: 300px;
+    }
+
+    figcaption  {
+        display: none;
+    }
+    ul{
+        margin-left: 40px;
+        list-style-type: none;
+        display: flex;
+        gap: 15px;
+        margin-bottom: 25px;
+        
+}
+ul a{
+    font-size: 17px;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px ;
+    max-width: 100px;
+    
+    color: white;
+}
+ul a:hover{
+    color: red;
+}
+.s3{
+    position: relative;
+    left: 15px;
+    bottom: 3px;
+    color: whitesmoke;
+    
+    
+}
+    .s3 h1{
+        font-weight: bolder;
+        font-size: 20px;
+        width: 400px;
+        margin-top: 40px;
+    }
+    .s3 span{
+        color: black;
+    }
+    .s3 p{
+        margin-top: 10px;
+        line-height: 23px;
+        width: 400px;
+        font-size: 15px;
+    }
+    .s3{
+        width: 500px;
+        height: 300px;
+        
+    }
+    .s3 button{
+        margin-top: 5px;
+        
+        font-size: 20px;
+        height: 30px;
+        border-radius: 30px;
+        width: 200px;
+        background-image: linear-gradient(brown,orange);
+        transform: scale(1);
+}
+.s3 button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    transition: all 0.3s ease;
+}
+.s3 a:hover{
+    background-color: brown;
+    color: aqua;
+    transition: color 0.4s ease 0.5s;
+}
+
+}
